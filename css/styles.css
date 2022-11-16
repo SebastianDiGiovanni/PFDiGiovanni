@@ -1,0 +1,221 @@
+/* reset */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* estilos del body */
+
+body{
+    background-color: white;
+}
+
+/* estilos de header */
+
+header{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    width: 400px;
+    margin-top: 5px;   
+}
+
+header nav ul li{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    
+    
+}
+
+.contenedor-search{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* estilos del main */
+
+main div h1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.oferta-principal{
+    margin-left: 450px;
+    margin-top: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+.descripcion-producto{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;        
+}
+
+.agregar-carrito{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;   
+}
+
+aside{
+    text-align: center;
+}
+
+.casas{
+    margin-top: 30px;
+    text-align: center;
+    width: 800px;
+}
+
+/* estilos de footer */
+
+.style-login-contacto{
+    text-align: center;
+    list-style: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+.contenedor-logos{
+    text-align: right;
+}
+
+footer img{
+    margin-left: 20px;
+    width: 40px;
+}
+
+footer div p{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+/* ESTILOS PAGE SHOP */
+
+/* estilos header */
+
+main div img{
+    width: 400px;
+    margin-left: 150px;
+    text-align: center;    
+}
+
+/* estilos footer */
+
+footer{
+    text-align: center;
+    padding: 20px;    
+}
+
+
+/* ESTILOS PAGE NOSOTROS */
+ 
+/* estilos main */
+
+main div h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nosotros{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+    
+.div1{
+     grid-area: 1 / 1 / 2 / 2; 
+     margin-top: 20px;
+     margin-left: 20px;
+     text-align: center;
+     font-size: 25px;
+}
+
+.div2{ 
+    grid-area: 1 / 2 / 2 / 3; 
+}
+
+
+/* ESTILOS PAGE LOGIN */
+
+/* estilos main */ 
+
+
+
+main div form{
+    text-align: center;
+    display: block;
+    
+}
+
+.acceder-login{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;  
+    margin-bottom: 20px; 
+}
+
+.usuario{
+    margin-bottom: 10px;
+}
+
+.password1{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.acceder{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.usuario, .password1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+}
+
+
+/* ESTILOS PAGE CONTACTO */
+
+/* estilos main */
+
+div h1{
+    text-align: center;
+    margin: 20px;
+}
+
+
+.container-1{
+    text-align: center;
+}
+    
+
+
+.nombre, .telefono, .mail{
+    margin: 10px;
+}
+
+.textarea{
+    margin: 10px;
+}
