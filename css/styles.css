@@ -9,7 +9,7 @@
 /* estilos del body */
 
 body{
-    background-color: red;
+    background-color: white;
 }
 
 /* estilos de header */
@@ -30,12 +30,18 @@ header nav ul li{
     font-size: 30px;
     text-decoration: underline;
     text-align: center;
-    display: inline-block;
+    display: inline;
     padding: 5px;
     text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
     
     
 }
+
 
 .contenedor-search{
     font-family: 'Bebas Neue', cursive;
