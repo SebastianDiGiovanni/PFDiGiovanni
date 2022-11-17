@@ -128,25 +128,25 @@ main div h1{
     margin-bottom: 20px;
 }
 
-.nosotros{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 0px;
-}
-    
 .div1{
-     grid-area: 1 / 1 / 2 / 2; 
-     margin-top: 20px;
-     margin-left: 20px;
-     text-align: center;
-     font-size: 25px;
+    font-family:'Bebas Neue', cursive;
+    display: block;
+    font-size: large;
+    text-align: center;
+    margin: 2rem;
 }
 
-.div2{ 
-    grid-area: 1 / 2 / 2 / 3; 
+.img-nosotros{
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
 }
+
+
+
+
 
 
 /* ESTILOS PAGE LOGIN */
@@ -213,7 +213,12 @@ div h1{
     margin: 10px;
 }
 
-/* MQ de Index para Dekstop*/
+/* MQ para Desktop*/
+
+
+
+    /* MQ */
+
 @media screen and (min-width:1024px){
 
     .logo{
@@ -266,4 +271,28 @@ div h1{
             transform: scale(0.9);
         }
     }
+
+    /* MQ nosotros */
+.nosotros{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    }
+
+.div1{
+    grid-area: 1 / 1 / 2 / 2; 
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 25px;
 }
+
+.div2{ 
+   grid-area: 1 / 2 / 2 / 3; 
+   
+   
+}
+}
+
