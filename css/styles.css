@@ -248,9 +248,10 @@ div h1{
     .imagen-casas:hover{
         animation-name: img-latido;
         animation-iteration-count: infinite;
-        animation-duration: 4s;
-        animation-delay: 0.2s;
+        animation-duration: 1s;
+        animation-delay: 0s;
         animation-direction: alternate-reverse;
+        
 }
     .cards-1{
         display: flex;
@@ -264,12 +265,10 @@ div h1{
 
 @keyframes img-latido{
         0%{
-            transform: scale(1);
+            transform: scale(1.09);
         }
 
-        100%{
-            transform: scale(0.9);
-        }
+       
     }
 
     /* MQ nosotros */
