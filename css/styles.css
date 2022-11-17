@@ -75,8 +75,9 @@ section div{
     list-style: none;
     font-family: 'Bebas Neue', cursive;
     font-size: 30px;
-    text-decoration: underline;
+   
 }
+
 
 
 .contenedor-logos{
@@ -251,7 +252,7 @@ div h1{
         animation-duration: 1s;
         animation-delay: 0s;
         animation-direction: alternate-reverse;
-        
+        box-shadow: 4rem black;
 }
     .cards-1{
         display: flex;
