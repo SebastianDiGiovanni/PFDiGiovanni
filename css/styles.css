@@ -22,16 +22,16 @@ header{
 }
 
 .logo{
-    width: 400px;
-    margin-top: 5px;   
+    width: 200px;
+    margin-top: 5px; 
+    align-items: left;  
 }
 
 header nav ul li{
     font-family: 'Bebas Neue', cursive;
-    font-size: 30px;
-    
+    font-size: 1rem;
     text-align: center;
-    display: inline;
+    display: inline-block;
     padding: 5px;
     
 }
@@ -39,7 +39,7 @@ header nav ul li{
 .container{
     display: flex;
     justify-content: center; 
-    margin-right: 500px; 
+    margin-right: 100px; 
 }
 
 
@@ -94,13 +94,17 @@ footer div p{
 
 /* ESTILOS PAGE SHOP */
 
-/* estilos header */
+/* estilos header, cards shop */
 
-main div img{
-    width: 400px;
-    margin-left: 150px;
-    text-align: center;    
-}
+.cards-shop{
+      display: grid;
+      justify-content: center;
+    }
+
+   
+    
+
+
 
 /* estilos footer */
 
@@ -206,6 +210,12 @@ div h1{
 
 /* MQ de Index para Dekstop*/
 @media screen and (min-width:1024px){
+    .logo{
+        width: 400px;
+    }
+    header nav ul li{
+        font-size: 2rem;
+    }
     section div{
         height: 500px;
     }
@@ -225,6 +235,15 @@ div h1{
         animation-duration: 4s;
         animation-delay: 0.2s;
         animation-direction: alternate-reverse;
+}
+.cards-1{
+    display: flex;
+    justify-content: center;
+}
+
+.cards-2{
+    display: flex;
+    justify-content: center;
 }
 
 @keyframes img-latido{
