@@ -37,9 +37,12 @@ header nav ul li{
 }
 
 .container{
-    display: flex;
-    justify-content: center; 
-    margin-right: 100px; 
+   display: grid;
+   justify-content: center;
+}
+
+.img1, .img2, .img3, .img4{
+    height: 220px;
 }
 
 
@@ -210,6 +213,7 @@ div h1{
 
 /* MQ de Index para Dekstop*/
 @media screen and (min-width:1024px){
+
     .logo{
         width: 400px;
     }
@@ -229,6 +233,10 @@ div h1{
         transform: scale(0.9);
     }
 
+    .img1, .img2, .img3, .img4{
+        height: 400px;
+    }
+
     .imagen-casas:hover{
         animation-name: img-latido;
         animation-iteration-count: infinite;
@@ -236,14 +244,14 @@ div h1{
         animation-delay: 0.2s;
         animation-direction: alternate-reverse;
 }
-.cards-1{
-    display: flex;
-    justify-content: center;
+    .cards-1{
+        display: flex;
+        justify-content: center;
 }
 
-.cards-2{
-    display: flex;
-    justify-content: center;
+    .cards-2{
+        display: flex;
+        justify-content: center;
 }
 
 @keyframes img-latido{
