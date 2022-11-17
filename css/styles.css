@@ -9,10 +9,11 @@
 /* estilos del body */
 
 body{
-    background-color: rgb(239, 237, 237);
-    
-}
-
+    background: rgb(19,52,61);
+    background: -moz-linear-gradient(90deg, rgba(19,52,61,1) 2%, rgba(44,74,82,1) 10%, rgba(73,100,107,1) 15%, rgba(191,203,206,1) 50%, rgba(60,88,96,1) 85%, rgba(33,64,73,1) 90%, rgba(19,52,61,1) 98%);
+    background: -webkit-linear-gradient(90deg, rgba(19,52,61,1) 2%, rgba(44,74,82,1) 10%, rgba(73,100,107,1) 15%, rgba(191,203,206,1) 50%, rgba(60,88,96,1) 85%, rgba(33,64,73,1) 90%, rgba(19,52,61,1) 98%);
+    background: linear-gradient(90deg, rgba(19,52,61,1) 2%, rgba(44,74,82,1) 10%, rgba(73,100,107,1) 15%, rgba(191,203,206,1) 50%, rgba(60,88,96,1) 85%, rgba(33,64,73,1) 90%, rgba(19,52,61,1) 98%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#13343d",endColorstr="#13343d",GradientType=1);}
 /* estilos de header */
 
 header{
@@ -45,13 +46,9 @@ header nav ul li{
     height: 220px;
 }
 
-
 .contenedor-search{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
-    text-align: center;
+    
 }
-
 
 /* estilos del main */
 
@@ -77,7 +74,6 @@ section div{
     font-size: 30px;
    
 }
-
 
 
 .contenedor-logos{
@@ -108,10 +104,6 @@ footer div p{
     }
 
    
-    
-
-
-
 /* estilos footer */
 
 footer{
@@ -144,10 +136,6 @@ main div h1{
     display: block;
     
 }
-
-
-
-
 
 
 /* ESTILOS PAGE LOGIN */
@@ -216,10 +204,7 @@ div h1{
 
 /* MQ para Desktop*/
 
-
-
-    /* MQ */
-
+   /* MQ */
 @media screen and (min-width:1024px){
 
     .logo{
@@ -267,9 +252,7 @@ div h1{
 @keyframes img-latido{
         0%{
             transform: scale(1.09);
-        }
-
-       
+        }   
     }
 
     /* MQ nosotros */
@@ -291,8 +274,6 @@ div h1{
 
 .div2{ 
    grid-area: 1 / 2 / 2 / 3; 
-   
-   
-}
+   }
 }
 
