@@ -9,11 +9,10 @@
 /* estilos del body */
 
 body{
-    background: rgb(19,52,61);
-    background: -moz-linear-gradient(90deg, rgba(19,52,61,1) 2%, rgba(44,74,82,1) 10%, rgba(73,100,107,1) 15%, rgba(191,203,206,1) 50%, rgba(60,88,96,1) 85%, rgba(33,64,73,1) 90%, rgba(19,52,61,1) 98%);
-    background: -webkit-linear-gradient(90deg, rgba(19,52,61,1) 2%, rgba(44,74,82,1) 10%, rgba(73,100,107,1) 15%, rgba(191,203,206,1) 50%, rgba(60,88,96,1) 85%, rgba(33,64,73,1) 90%, rgba(19,52,61,1) 98%);
-    background: linear-gradient(90deg, rgba(19,52,61,1) 2%, rgba(44,74,82,1) 10%, rgba(73,100,107,1) 15%, rgba(191,203,206,1) 50%, rgba(60,88,96,1) 85%, rgba(33,64,73,1) 90%, rgba(19,52,61,1) 98%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#13343d",endColorstr="#13343d",GradientType=1);}
+    background-color: #8BC6EC;
+    background-image: linear-gradient(270deg, #8BC6EC 0%, #0b1c20 100%)
+}
+
 /* estilos de header */
 
 header{
@@ -25,17 +24,29 @@ header{
 .logo{
     width: 200px;
     margin-top: 5px; 
-    align-items: left;  
 }
-
+ 
 header nav ul li{
+    color: black;
     font-family: 'Bebas Neue', cursive;
-    font-size: 1rem;
+    font-size: medium;
     text-align: center;
     display: inline-block;
-    padding: 5px;
-    
+    padding: 1rem;
 }
+
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    color: black;
+}
+
+a:hover{
+     color: black;
+}
+
 
 .container{
    display: flex;
@@ -46,11 +57,13 @@ header nav ul li{
     height: 220px;
 }
 
-.contenedor-search{
-    
-}
 
 /* estilos del main */
+
+.contenedor-search{
+    font-size: small;
+    margin: 0.5rem;
+}
 
 main div h1{
     text-align: center;
@@ -94,6 +107,7 @@ footer div p{
 }
 
 
+
 /* ESTILOS PAGE SHOP */
 
 /* estilos header, cards shop */
@@ -101,7 +115,8 @@ footer div p{
 .cards-shop{
       display: grid;
       justify-content: center;
-    }
+}
+
 
    
 /* estilos footer */
@@ -212,6 +227,11 @@ div h1{
     }
     header nav ul li{
         font-size: 2rem;
+    }
+    
+    a:hover{
+        transform: scale(0.9);
+        color: black;
     }
     section div{
         height: 500px;
