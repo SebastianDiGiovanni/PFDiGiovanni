@@ -1,0 +1,20 @@
+// mixin
+
+// mixin estilo de font
+@mixin estiloFont($font, $color){
+    font-family: $font;
+    color: $color;    
+}
+
+@mixin alingSize{
+    display: flex;
+    justify-content: center;
+}
+
+//mixin para flex
+
+@mixin flex{
+    display: flex;
+    justify-content: center;
+}
+
