@@ -34,7 +34,7 @@ header{
                     @include estiloFont($font-family, $color-font);
                     @include alingSize;
                     display: inline-block;
-                    padding: 1rem;
+                    padding: 0.5rem;
                     a{
                         text-decoration: none;
                         display: inline-block;
@@ -58,7 +58,6 @@ main{
     .contenedor-search{
         @include flex;
         font-size: small;
-        
     }
 
     div{

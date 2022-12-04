@@ -25,7 +25,7 @@ header {
     display: flex;
     justify-content: center;
     display: inline-block;
-    padding: 1rem; }
+    padding: 0.5rem; }
     header nav ul li a {
       text-decoration: none;
       display: inline-block;
